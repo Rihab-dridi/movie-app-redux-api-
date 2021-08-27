@@ -1,0 +1,129 @@
+*{
+  padding:0;
+  margin:0;
+}
+.movieList{
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  column-gap: 50px;
+  margin-top: 5px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 20%;
+}
+
+/* movie card */
+.title{
+ 
+  word-break: break-all;
+
+}
+span .fas{
+  color:gold;
+}
+.MovieCard{
+  margin-top:25px;
+  margin-bottom:25px;
+  background-color: black;
+  color:white;
+  border: grey solid 1px;
+  padding:7px;
+ font-size: 20px;
+ text-align: start;
+ cursor:pointer;
+ display: flex;
+ flex-direction: column;
+ word-break: break-all;
+max-width:  350px;;
+
+} 
+.MovieCard img{
+  width:350px;
+  height:450px;
+  text-align: center;
+}
+/*add */
+.Add{
+  background-color: black;
+  text-align: start;
+  margin-top:25px;
+  padding:0;
+}
+.add-btn{
+color: gold;
+font-size:300px;
+background-color: black;
+width:365px;
+height:95%;
+margin-left: 20px;
+
+
+
+}
+.add-btn:hover{
+background-color:gold ;
+color:black;
+}
+
+.Modal{
+  width:80%;
+  height: 80%;
+  margin-left:10%;
+  margin-top: 5%;
+  background-color: rgba(0, 0, 0, 0.589);
+  text-align: center;
+  padding-top: 10px;
+}
+
+.Modal input{
+  width:80%;
+  height:35px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.Modal button{
+  width:100px;
+  height:35px;
+  background-color: white;
+  font-size: medium;
+  margin: 5px;
+  align-self: flex-end;
+}
+
+/* search*/
+.search-bar{
+  background-color: black;
+  display: flex;
+  text-align: center;
+  padding-left:50px;
+  padding-top:50px;
+  height: 100px;
+align-items: center;
+
+}
+.search{
+  width:100%;
+  height:25px; 
+  background-color: rgb(190, 193, 196);
+  
+
+}
+.search-frag{
+  margin-right: 10px;
+  width:40%;
+  padding-top: 3px;
+}
+.fas{
+  color:grey
+}
+.fas:hover{
+color:gold
+}
+.Search{
+  height: 300px;
+}
+
+
